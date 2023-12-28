@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Register | SharkBuy
+{% endblock %}
+
+{% block main %}
+
+<p id="youraccount">Register</p>
+<p id="loginsubtitle">Register and you will have many benefits, you will be able to buy faster and easier <br> and you will receive promotional offers.</p>
+<div class="form-containerr">
+<form action="/register" method="post">
+    <div class="mb-3">
+        <input autocomplete="off" autofocus class="form-control mx-auto w-auto" id="username" name="username" placeholder="Username" type="text">
+    </div>
+    <div class="mb-3">
+        <input class="form-control mx-auto w-auto" id="password" name="password" placeholder="Password" type="password">
+    </div>
+    <div class="mb-3">
+        <input class="form-control mx-auto w-auto" id="confirmation" name="confirmation" placeholder="Password (again)" type="password">
+    </div>
+    <button class="btn btn-primary" type="submit">Register</button>
+</form>
+</div>
+<div class="textbeforer"><p>Already have an account? <a href="{{ url_for('login') }}">Log in</a></p></div>
+
+{% endblock %}

@@ -1,0 +1,40 @@
+{% extends "layout.html" %}
+
+{% block head %}
+<style>
+    form{
+        margin-top: 150px;
+    }
+</style>
+{% endblock %}
+
+{% block title %}
+    Products women
+{% endblock %}
+
+{% block main %}
+
+<h1>Add a New Product</h1>
+    <form method="POST" action="/add_productw">
+        <label for="code">Product Code:</label>
+        <input type="text" autocomplete="off" name="code" id="code" required><br><br>
+
+        <label for="name">Product Brand:</label>
+        <input type="text" autocomplete="off" name="brand" id="brand" required><br><br>
+
+        <label for="name">Product Name:</label>
+        <input type="text" autocomplete="off" name="name" id="name" required><br><br>
+
+        <label for="image">Image URL:</label>
+        <input type="text" autocomplete="off" name="image" id="image"><br><br>
+
+        <label for="price">Price:</label>
+        <input type="number" autocomplete="off" name="price" id="price" step="0.01" required><br><br>
+
+        <label for="price">Size:</label>
+        <input type="text" autocomplete="off" name="size" id="size" step="0.01" required><br><br>
+
+        <button type="submit">Add Product</button>
+    </form>
+
+{% endblock %}

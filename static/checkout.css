@@ -1,0 +1,29 @@
+h2 {
+    font-size: 40px;
+    background: linear-gradient(to left, #660066 0%, #ff3300 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+main{
+    width: 50%;
+    padding-top: 100px;
+}
+
+.hidden {
+    display: none;
+}
+
+.produse {
+    display:inline-flexbox;
+    justify-content: space-between;
+}
+
+.texty {
+    color: #36689d;
+    font-weight: bold;
+}
+
+.nav-link{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}

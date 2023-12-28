@@ -1,0 +1,111 @@
+#hero {
+    width: auto;
+    height: 650px;
+    background-image: url("/static/cover.webp");
+    background-size: cover;
+    z-index: 50;
+}
+
+#hero h1 {
+    font-family: Teko, sans;
+    font-size: 70px;
+    padding-top: 200px;
+    padding-left: 150px;
+}
+
+.btnm {
+    background-color: #C8D5CB;
+    border: 2px solid #222222;
+    font-family: 'Inconsolata', monospace;
+    font-size: 22px;
+    padding: 5px 20px;
+
+}
+
+.btnw {
+    background-color: #C8D5CB;
+    border: 2px solid #222222;
+    font-family: 'Inconsolata', monospace;
+    font-size: 22px;
+    padding: 5px 20px;
+}
+
+#btm {
+    margin-left: 150px;
+}
+
+#btw {
+    margin-left: 53px;
+}
+
+@media only screen and (max-width: 600px) {
+  #btm {
+    margin-left: 50px;
+}
+
+
+#btw {
+    margin-left: 53px;
+}
+
+#hero h1 {
+  padding-left: 30px;
+}
+    
+}
+
+
+.header {
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    outline: 2px solid #878787;
+  }
+  
+  .navbar-gender a{
+    font-family: 'Inconsolata', monospace;
+    font-size: 22px;
+    color: #36689d;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 30px;
+  }
+  
+  .navbar a{
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 35px;
+  }
+  
+  .logo-image {
+    width: 140px;
+    height: 60px;
+  }
+  
+  .navbar img {
+    width: 24px;
+    height: 24px;
+  }
+
+  @media only screen and (min-width: 600px) {
+    .logo-image {
+      width: 140px;
+      height: 60px;
+      margin-right: 92px;
+    }
+  }
+
+  .flash {
+    display: flex;
+    position: absolute;
+    top: 100px;
+    text-align: center;
+    margin-right: 40px;
+   }

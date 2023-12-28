@@ -1,0 +1,115 @@
+#product1 .addcart {
+    background-color: #36689d;
+    width: 100px;
+    height: 30px;
+    border: 2px solid #36689d;
+    text-align: center;
+    padding: auto;
+    margin: auto;
+    color: white;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#product1 {
+    text-align: center;
+    width: 70%;
+}
+
+#product1 .pro-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+#product1 .pro{
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #474343;
+    border-radius: 20px;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.04);
+    margin: 15px 0;
+    transition: 0.2s ease;
+}
+
+#product1 .pro:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.1);
+
+}
+
+#product1 .pro img{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.size-box {
+    width: 35px;
+    background-color: rgba(255, 255, 255, 0.226);
+    border: 1px solid;
+    border-color: black;
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 5px;
+    padding-top: 2px;
+}
+
+#product1 .pro .des{
+    text-align: start;
+    padding: 10px 0;
+}
+
+#product1 .pro .des span {
+    font-size: 12px;
+}
+
+#product1 .pro .des {
+    padding-top: 7px;
+    font-size: 14px;
+}
+
+#product1 .pro .des .h4{
+    padding-top: 10px;
+    font-size: 17px;
+}
+
+.pro h4{
+    font-size: 17px;
+    padding-top: 7px;
+    color: #474343;
+    font-weight: bold;
+}
+
+.pro h5{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.pro a{
+    text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Teko&family=Montserrat&display=swap');
+
+#product1 h2{
+    font-family: Teko, sans;
+    font-size: 70px;
+    color: #36689d;
+}
+
+#subtitle {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 30px;
+}
+
+.product-quantity{
+    width: 25px;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 5px;
+}
+

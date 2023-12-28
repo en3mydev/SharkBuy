@@ -1,0 +1,43 @@
+.thank h1 {
+    font-family: Teko, sans;
+    font-size: 70px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+p {
+    position: absolute;
+    padding-top: 100px;
+    text-align: center;
+}
+
+#order {
+    margin-top: 50px;
+    font-family: 'Asap', sans-serif;
+    font-size: 20px;
+}
+
+#suborder {
+    margin-top: 180px;
+    position: absolute;
+    text-align: center;
+    font-family: 'Asap', sans-serif;
+    font-size: 20px;
+    padding-top: 70px;
+}
+
+@media only screen and (max-width: 600px) {
+    p {
+        margin-top: 100px;
+        max-width: 70%;
+        display: block;
+    }
+    .thank h1 {
+        max-width: 70%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 85px;
+        display: block;
+        margin-bottom: 170px;
+    }
+  }

@@ -1,0 +1,46 @@
+{% extends "layout.html" %}
+
+{% block head %}
+
+<link rel="stylesheet" href="/static/men.css">
+
+{% endblock %}
+
+{% block title %}
+    Men | SharkBuy
+{% endblock %}
+
+{% block main %}
+<section id="product1" class="section-p1">
+    <br>
+    <br>
+    <br>
+    <br>
+    <h2>Clothes for MEN</h2>
+    <p id="subtitle">your stylist cannot recommend anything better</p>
+    <div class="pro-container">
+    {% for product in products %}
+    
+        <div class="pro">
+            <form method="post" action="/add">
+            <img src="/static/{{ product.image }}" alt="">
+            <div class="des">
+                <span>{{ product.brand }}</span>
+                <h5>{{ product.name }}</h5>
+                <div class="size-box">{{ product.size }}</div>
+                <h4>${{ product.price }}0</h4>
+            </div>
+            <div class="add-to-cart">
+            <input type="hidden" name="code" value="{{ product.code }}">
+            <input type="hidden" class="product-quantity" name="quantity" value="1" size="1" />
+            <input type="submit" value="Add to Cart" class="addcart" />
+            </div>
+            </form>
+        </div>
+
+    {% endfor %}
+</div>
+</div>
+</div>
+</section>
+{% endblock %}

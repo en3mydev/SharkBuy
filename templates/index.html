@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block head %}
+
+{% block styles %}
+<link rel="stylesheet" href="/static/index.css">
+{% endblock %}
+
+{% endblock %}
+
+{% block title %}
+    SharkBuy | Premium Clothes
+{% endblock %}
+
+{% block main %}
+
+<div id="hero">
+    <h1>view all <span class="underline">products</span></h1>
+    <a href="/men" id="btm"><button class="btnm">MEN</button></a>
+    <a href="/women" id="btw"><button class="btnw">WOMEN</button></a>
+</div>
+
+{% endblock %}
