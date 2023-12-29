@@ -1,12 +1,42 @@
-# SHARKBUY - A CLOTHING SITE (WEB APPLICATION)
-#### Video Demo:  <https://www.youtube.com/watch?v=f2DC48uqTYg>
-#### Description: SharkBuy is a website where you can purchase clothes. 
-This project was created solely by me, and it took about 3 weeks to develop. 
-On this website, you can create an account, log in, and browse products grouped by gender (men/women) as well as a section for kids. All the products and accounts are stored in a database. 
-You can add products to your cart and proceed to checkout where you can place your order. However, it's important to note that the order won't be actually submitted, as I haven't finished that part.
-The website is built using Flask, and I incorporated functions such as "apology," "login_required," "login," and "logout" from the CS50 finance problem. There's a list of features that should be added to the website, but I haven't implemented them yet:
--Sorting items by price and newest arrivals
--Implementing a wishlist feature
--Creating a profile menu that allows users to change their passwords and view order history
--Developing individual product pages
-I'm aware of how to implement these features, but it would require a significant amount of time. Instead, I plan to allocate my time to learning new programming concepts and skills.
+<div align='center'><img style="width:30%" src='/static/sharklogo.png'/></div>
+
+# About the project
+
+A fashion and sneaker online store tailored for shopping clothes and sneakers. This platform provides an easy-to-use interface where users can browse, compare, and buy a wide range of clothing items and shoes from various brands, sizes, styles, and price ranges.
+
+Check the live demo: [Live Demo](https://sharkbuy.shop/)
+_You need to wait for about 5 seconds before it starts because it's hosted for free on render.com, and if no one accesses the site for 15 minutes, it automatically shuts down._
+
+**Build with:**
+
+» Python (Flask) <br>
+» CSS <br>
+» SQLite
+
+## Screenshots of the Project
+
+<h3 align='center'>Home Page 🏡</h3>
+<div align='center'><img src='/static/fullpage1.png'/></div>
+<br>
+<br>
+<h3 align='center'>Shopping page 🛍️</h3>
+<br>
+<div align='center'><img src='/static/fullpage2.png'/></div>
+<br>
+<br>
+<h3 align='center'>Cart page 🛒</h3>
+<br>
+<div align='center'><img src='/static/fullpage3.png'/></div>
+<br>
+<br>
+<h3 align='center'>Checkout page</h3>
+<br>
+<div align='center'><img src='/static/fullpage4.png'/></div>
+<br>
+<br>
+<h3 align='center'>Login page</h3>
+<br>
+<div align='center'><img src='/static/fullpage5.png'/></div>
+<br>
+<br>
+<h4 align='center'>**This project was made when I started to learn coding. This project was done and presented to receive the certificate from CS50x Harvard.There's a big improvement in how things look and work between this project and my last project (Scent Symphony React App).**</h4>
